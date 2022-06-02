@@ -1,0 +1,83 @@
+.CategoryContainer{
+    width:98.5%;
+    padding:0;
+    margin:0 .5% 0 1%;
+}
+.Categories li{
+    width:49.5%;
+    margin-right: .5%;
+    float:left;
+}
+.Categories li img{
+    width:10%;
+    margin-left:45%;
+    margin-top:1%;
+}
+.Categories li h3{
+    text-align: center;
+    margin:0;
+    color:#333;
+    font-size:20px;
+    font-weight:600;
+}
+p {
+    color:#333;
+    margin:1% 5% 3% 5%;
+}
+h4{
+    margin: 0 0 0 5%;
+    padding:0;
+    color:#333;
+    font-weight:500;
+}
+.Categories li a{
+    text-decoration:underline;
+    color:#333;
+}
+#WEBUL{
+    width:98%;
+    margin-left:1%;
+}
+#WEBUL li{
+    float:left;
+    margin:0;
+}
+.WEBP{
+     margin:1% 5% 1% 5%;
+}
+#SLI li p{
+    margin:0;
+}
+#SLI li{
+    float:none;
+    margin-left:5%;
+}
+#SLI {
+    margin: 1% 0 3% 0;
+    list-style-type: square;
+}
+#MechDownlaods{
+    list-style-type: square;
+    width:100%;
+    display:inline;
+}
+#MechDownlaods li{
+    float:left;
+    width:90%;
+}
+#MechDownlaodsContainer{
+    margin: 1% 0 0 5%;
+}
+#CADDownlaods{
+    list-style-type: square;
+    width:100%;
+    display:inline;
+}
+#CADDownlaods li{
+    float:left;
+    width:90%;
+    margin-left:5%;
+}
+#CADDownlaodsContainer{
+    margin: 1% 0 0 5%;
+}

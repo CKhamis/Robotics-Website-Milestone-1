@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="CSS/404.css">
+		<title>Project Velocity</title>
+		<link rel="icon" href="Pictures/Icons/apesofwrath.jpeg">
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-88157638-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+		<script src="Javascript/Javascript.js"></script>
+		<style>
+		body{
+		background-color:lightgrey;
+			}
+		#ErrorContainer{
+			width:100%;
+			height:100%;
+			position:absolute;
+			}
+		#ErrorContainer img{
+			width:25%;
+			margin:30px 37.5% 0 37.5%;
+			}
+		#ErrorContainer iframe{
+			margin: 30px auto 0 auto;
+			width:580px;
+			display:none;/*block*/
+			}
+		#ErrorContainer h2{
+			font-weight:100;
+			font-size:24px;
+			color:#333;
+			text-align:center;
+			}	
+		#Actions{
+			width:30%;
+			margin-left:35%;
+			}
+		p,a {
+			font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+			font-size: 14px;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: 100;
+			color:#333;
+			}
+		a{
+			text-decoration:underline
+			}
+
+		footer{
+			position:absolute;
+			bottom:0;
+			width:100%;
+			}
+		footer ul{
+			display:inline;
+			list-style-type: none;
+			width:100%;
+			}
+		footer ul li{
+			float:left;
+			margin:0 0 0 1%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="ErrorContainer">
+			<img src="Pictures/Icons/Error Image.png" id="ErrorImage" onclick="EasterEgg1();">
+			<iframe src="Easter Eggs/Snake/Snake.html" frameBorder="0" height="400px" id="EasterEgg1"></iframe>
+			<hr color="lightgrey"  style="margin:0;padding:0;width:100%;">
+			<h2>The page you requested for was not found. (Error 404)</h2>
+			<div id="Actions">
+				<p>This page was not found or relocated. We may have removed the page. Please return to our <a href="HTML Pages/Index.html">Home Page</a>. Or, if you would like to report this as a broken link, please take our <a href="https://goo.gl/forms/2TXIEzxcgJQdm7xB2"  target="_blank">feedback form</a>. We may be restructuring our website. Sorry for the inconvenence.</p>
+			</div>
+		</div>
+		<footer>
+			<ul>
+				<li><a href="HTML Pages/Index.html">Home</a></li>
+				<li><a href="HTML Pages/About.html">About</a></li>
+				<li><a href="https://goo.gl/forms/2TXIEzxcgJQdm7xB2">Missing Link Report</a></li>
+				<li><a href="HTML Pages/Events.html">Events</a></li>
+				<li  style="float:right;margin:0 1% 0 0;"><p style="margin:0;" id="Counter">Apes of Wrath &copy; 2017</p></li>
+			</ul>
+		</footer>
+	</body>
+</html>

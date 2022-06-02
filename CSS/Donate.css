@@ -1,0 +1,31 @@
+#DonateContainer{
+    width:100%;
+    margin:0;
+}
+#Donation{
+    width:100%;
+}
+#Donations li{
+    float:left;
+    padding:0;
+    width:48%;
+    margin-left:1%;
+}
+#Donations li img{
+    width:100%;
+}
+h3{
+    text-align: center;
+    margin:0 0 10px 0;
+    font-size:24px;
+}
+#ASDirections{
+    list-style-type: decimal;
+}
+#ASDirections li{
+    width:100%;
+    float:left;
+}
+#ASDirections li p{
+    margin:0;
+}

@@ -1,0 +1,99 @@
+
+.TeamInfoContainer{
+    width:100%;
+    margin:-4px 0 0 0;
+    padding:0;
+    height:15%;
+    background-color:#444;
+}
+.Section{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.Section ul li{
+    float:left;
+    margin:0;
+    color:white;
+}
+.Section ul li div p{
+    font-size:18px;
+}
+.MentorsContainer{
+    margin:20px 0 0 0;
+    width:100%;
+}
+#Mentors{
+    width:98%;
+    margin:0 1% 0 1%;
+}
+#Mentors li{
+    float:left;
+    width:49%;
+    margin:1% 1% 0 0;
+}
+#Mentors li img{
+    float:left;
+    width:25%;
+}
+#Mentors li div{
+    margin-left:26%;
+}
+h3{
+    font-size:24px;
+}
+#Sponsors{
+    width:98%;
+    margin:0 1% 0 1%;
+}
+#Sponsors li{
+    float:left;
+    width:32%;
+    margin:1% 1% 0 0;
+    display:block;
+}
+#Sponsors li img{
+    width:100%;
+}
+#Sponsors li p{
+    font-size:16px;
+}
+#Sponsors li p{
+    color:#333;
+}
+/* Outreach*/
+#Outreach li{
+  width: 50%;
+  float:left;
+}
+#Outreach li h4 {
+    font-weight:500;
+    color: #333;
+    left: 0;
+    text-align:left;
+    width: 100%;
+    margin:0 0 5px 0;
+    padding:0;
+    font-size:18px;
+    padding: 0 0 1px 5%;
+}
+#Outreach li p {
+    color: #333;
+    left: 0;
+    text-align:left;
+    width: 100%;
+    margin:0;
+    padding:0;
+    padding: 0 5% 10px 5%;
+    font-size: 14px;
+}
+/*Contact info*/
+#Contact{
+    margin-top:50px;
+}
+#Contact ul li{
+    float:left;
+    width:49%;
+    margin-left:1%;
+    padding:0;
+}

@@ -1,0 +1,53 @@
+body{
+	background-color:lightgrey;
+}
+#ErrorContainer{
+		width:100%;
+		height:100%;
+		position:absolute;
+	}
+	#ErrorContainer img{
+		width:25%;
+		margin:30px 37.5% 0 37.5%;
+	}
+#ErrorContainer iframe{
+	margin: 30px auto 0 auto;
+	width:580px;
+	display:none;/*block*/
+}
+#ErrorContainer h2{
+	font-weight:100;
+	font-size:24px;
+	color:#333;
+	text-align:center;
+}
+#Actions{
+	width:30%;
+	margin-left:35%;
+}
+p,a {
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	color:#333;
+}
+a{
+	text-decoration:underline
+}
+
+footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+footer ul{
+	display:inline;
+	list-style-type: none;
+	width:100%;
+}
+footer ul li{
+	float:left;
+	margin:0 0 0 1%;
+}
